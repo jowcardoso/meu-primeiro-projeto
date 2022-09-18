@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width">
+        <link rel="icon" type="imagem/png" href="./asset/img/Ícone.png" />
+        <title>ammo.varejo | e-commerce</title>
+        <link rel="stylesheet" href="./asset/css/reset.css">
+        <link rel="stylesheet" href="./asset/css/base.css">
+        <link rel="stylesheet" href="./asset/css/busca-produto.css">
+        <link rel="stylesheet" href="./asset/css/cadastro-produto.css">
+        <link rel="stylesheet" href="./asset/css/card-produto.css">
+        <link rel="stylesheet" href="./asset/css/footer.css">
+        <link rel="stylesheet" href="./asset/css/header.css">
+        <link rel="stylesheet" href="./asset/css/mensagem.css">
+        <link rel="stylesheet" href="https://use.typekit.net/qoa0zpb.css">
+    </head>
+    <body>
+        <header class="cabecalho container">
+            <div class="caixa">
+                <h1>
+                    <img src="./asset/img/logo_header.png" alt="Logo ammo varejo e-commerce" class="banner">
+                </h1>
+            </div>
+        </header>
+
+        <main>
+            <form action="" method="post" class="cadastro-produto container" id="cadastro-produto">
+                <h2 class="titulo-form">Cadastro de produtos</h2>
+
+                    <div class="cadastro-produto__controle">
+                        <label for="nomeProduto">Nome</label>
+                        <input type="text" id="nomeProduto" class="cadastro-produto__input"  required>
+                        <small>mensagem error</small>
+                    </div>
+
+                    <div class="cadastro-produto__controle">
+                        <label for="descricao">Descrição</label>
+                        <input type="text" id="descricao" class="cadastro-produto__input"  required>
+                        <small>mensagem error</small>
+                    </div>
+
+                    <div class="cadastro-produto__controle">
+                        <label for="preco">Preço</label>
+                        <input type="number" id="preco"  class="cadastro-produto__input" step="0.01" min="0.01" required>
+                        <small>mensagem error</small>
+                    </div>
+                    <div class="cadastro-produto__controle">
+                        <label for="categoria">Categoria</label>
+                        <input type="text" id="categoria" class="cadastro-produto__input"  required>
+                        <small>mensagem error</small>
+                    </div>
+                    <div class="cadastro-produto__botao">
+                        <input type="submit" value="Salvar" class="cadastro-produto__enviar" formenctype="post">
+
+                    </div>
+                <div class="alertas">
+                    <div class="mensagem" id="divMensagens">
+                        <!--Div para mensagens cadastro-->
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="get" class="busca-produto container" id="busca-produto">
+                <h2 class="titulo-form">Produtos Cadastrados</h2>
+                <section class="busca-produto__caixa">
+                    <input type="search" id="pesquisar" formenctype="get" placeholder="Pesquisar" />
+                    <input type="submit" value="Enviar" id="botaoPesquisar" class="busca-produto__botao">
+                </section>
+
+                <section class="listagem">
+
+                </section>
+            </form>
+
+        </main>
+
+        <footer>
+            <img src="./asset/img/logo+marcasbranco1.png" alt="Logo ammo varejo marcas" class="rodape">
+            <p class="copyright">&copy; Copyright Jonathan Cardoso - QueroSerDev 2022</p>
+        </footer>
+
+        <script src="js/get-produtos.js"></script>
+        <script src="js/post-produtos.js"></script>
+        <script src="api/models/produtos.js"></script>
+
+    </body>
+</html>

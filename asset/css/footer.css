@@ -1,0 +1,30 @@
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rodape {
+    width: 30%;
+    margin: 1rem;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: .6rem;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        margin: 1rem;
+    }
+        
+    .rodape {
+        width: 100%;
+    }
+}

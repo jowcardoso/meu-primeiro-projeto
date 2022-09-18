@@ -1,0 +1,52 @@
+.busca-produto {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #cacaca;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.busca-produto__caixa {
+    border: 1px solid #444;
+    margin-bottom: 10px;
+    padding: 2px 1px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#pesquisar {
+    padding: .5rem .5rem;
+    outline: 0;
+    border: 0;
+    width: 100%;
+}
+
+/* #pesquisar:focus {
+    border: 1px solid #444;
+} */
+
+.busca-produto__botao {
+    width: 15%;
+    height: 6%;
+    padding: 10px 0;
+    margin-right: .1%;
+    background: #E51F1F;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    transition: .5s all;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.busca-produto__botao:hover {
+    background: #F4B638;
+    transform: scale(1.005);
+}

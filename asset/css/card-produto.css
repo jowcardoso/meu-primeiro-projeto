@@ -1,0 +1,65 @@
+.listagem-card {
+    border-radius: 8px;
+    border: 1px solid #cacaca;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    transition: .3s all;
+}
+.listagem-card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.listagem-card>* {
+    padding: 1px;
+}
+
+
+.listagem-card__head {
+    display: flex;
+}
+
+.listagem-card__nome {
+    color: #E51F1F;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.listagem-card__cate {
+    color: #303030;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+
+/* .listagem-card__main {
+    
+} */
+
+.listagem-card__desc {
+    color: #606060;
+    font-size: 12px;
+}
+
+
+.listagem-card__foot {
+    text-align: right;
+}
+
+.listagem-card__prec {
+    color: #303030;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sem-produto {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #E51F1F;
+    margin-top: 20px;
+}

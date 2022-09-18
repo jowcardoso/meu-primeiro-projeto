@@ -1,0 +1,80 @@
+.cadastro-produto {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #cacaca;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding-top:15px ;
+}
+
+.cadastro-produto__input {
+    border: 1px solid #303030;
+    border-radius: 5px;
+    outline: 0;
+    display: grid;
+    font-size: 14px;
+    width: 96%;
+    padding: 10px 10px 10px;
+}
+
+.cadastro-produto__botao {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cadastro-produto__enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #E51F1F;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: .5s all;
+    cursor: pointer;
+    border-radius: 8px;   
+}
+
+.cadastro-produto__enviar:hover {
+    background: #F4B638;
+    transform: scale(1.01);
+}
+
+.cadastro-produto__controle {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    
+}
+
+.cadastro-produto__controle label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+.cadastro-produto small {
+    visibility: hidden;
+    position: absolute;
+    margin: 5px 10px;
+    font-size: 12px;
+    color: #FF4D4D;
+}
+
+.cadastro-produto__controle.error input {
+    border: 3px solid #FF4D4D;
+}
+
+.cadastro-produto__controle.error small {
+    visibility: visible;
+}

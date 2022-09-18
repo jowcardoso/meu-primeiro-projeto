@@ -1,0 +1,27 @@
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner {
+    margin: 1rem;
+    width: 50%;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        margin: 1rem;
+        margin-right: 2rem;
+    }
+
+    .banner {
+        width: 100%;
+    }
+}

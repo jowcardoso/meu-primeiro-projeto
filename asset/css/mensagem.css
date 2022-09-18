@@ -1,0 +1,9 @@
+.alert {
+    color: white;
+    padding: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.alert.alert-sucesso {background-color: #364946;}
+.alert.alert-erro {background-color: #802626;}
