@@ -63,7 +63,8 @@ function filtroLista(){
             item.style.display = '';
 
         } else {
-            item.style.display='none';
+            item.style.display='none';            
+            
         }
     })
 }
