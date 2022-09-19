@@ -26,7 +26,7 @@ Para esse projeto foi usado HTML, CSS e JS, e as bibliotecas body-parser, cors, 
     # Clonar o repositório
     $ git clone https://github.com/jowcardoso/projeto-desafio-QueroSerDev
     # Entrar no diretório
-    $ cd ammoecommerce
+    $ cd projeto-desafio-QueroSerDev
     # Instalar as dependências
     $ npm install
     # Iniciar o banco de dados
